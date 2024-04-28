@@ -36,7 +36,9 @@ const ServiceCard = ({item, onBookmarkClicked}: IProps) => {
             <Paragraph
               fontSize={17}
               fontWeight="500"
-              mt={5}>{`${NAIRA} ${item.number_of_reviews}`}</Paragraph>
+              mt={
+                5
+              }>{`${NAIRA} ${item.number_of_reviews.toLocaleString()}`}</Paragraph>
             <FlexedView style={{marginTop: 5}}>
               <Image source={sharedImages.icons.star} />
               <Paragraph
