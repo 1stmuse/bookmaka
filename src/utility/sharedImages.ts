@@ -2,6 +2,7 @@ export default {
   profileImg: require('@assets/img/profileImg.png'),
   specialOffer: require('@assets/img/special.png'),
   service_man: require('@assets/img/service_man.png'),
+  deal2: require('@assets/img/deal2.png'),
   icons: {
     bookings: require('@assets/icons/bookings.png'),
     profile: require('@assets/icons/profile.png'),
@@ -29,5 +30,10 @@ export default {
     star: require('@assets/icons/star.png'),
     back_arrow: require('@assets/icons/backArrow.png'),
     circle_info: require('@assets/icons/circle_info.png'),
+    privacy: require('@assets/icons/privacy.png'),
+    support: require('@assets/icons/support.png'),
+    document: require('@assets/icons/document.png'),
+    security: require('@assets/icons/security.png'),
+    user: require('@assets/icons/user.png'),
   },
 };

@@ -18,7 +18,7 @@ import Dots from './Dots';
 
 const data = [
   sharedImages.specialOffer,
-  sharedImages.specialOffer,
+  sharedImages.deal2,
   sharedImages.specialOffer,
 ];
 
